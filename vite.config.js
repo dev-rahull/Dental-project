@@ -1,8 +1,9 @@
-// vite.config.js
+import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
+// https://vite.dev/config/
 export default defineConfig({
-  // your existing config...
+  plugins: [react()],
   preview: {
     host: "0.0.0.0",
     port: process.env.PORT || 4173,
