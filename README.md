@@ -72,9 +72,9 @@ Patients can log in and view **only their own data**, including:
    cd your-repo-name
 
 2. Install dependencies:
-
-npm install
+   ```bash
+   npm install
 
 3. Run the development server:
-
-npm start
+   ```bash
+   npm start
